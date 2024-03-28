@@ -6,6 +6,7 @@ import Home from './components/Pages/Home/Home';
 import About from './components/Pages/About/About';
 import Contact from './components/Pages/Contact/Contact';
 import Error404 from './components/Pages/Error/Error404';
+import UseEffet from './components/UseEffect';
 
 
 
@@ -15,6 +16,8 @@ const App = () => {
       <BrowserRouter>
 
       <Router/>
+
+      <UseEffet/>
 
       <Routes>
         <Route path="/" element={<Home/>}/>
